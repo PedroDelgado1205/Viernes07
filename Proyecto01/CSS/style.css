@@ -1,0 +1,78 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 36, 36);
+}
+
+#keyboard-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 5px;
+    margin: 100px auto;
+}
+
+.layer{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.key{
+    background-color: brown;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.key-normal{
+    width: 50px;
+    height: 50px;
+}
+
+.key-mayus{
+    width: 100px;
+    height: 50px;
+}
+
+.key-shift{
+    width: 80px;
+    height: 50px;
+}
+
+.key-space{
+    width: 400px;
+    height: 50px;
+}
+
+.key:hover{
+    background-color: rgb(95, 27, 27);
+}
+
+.key-empty{
+    width: 25px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activated{
+    outline: goldenrod solid 2px;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 5px;
+    margin: 100px auto;
+    height: 25px;
+}
